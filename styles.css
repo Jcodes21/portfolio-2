@@ -1,0 +1,21 @@
+header {
+    background-color:darkslateblue;
+    color:aliceblue;
+    padding: 20px 50px 20px 50px;
+}
+
+header h1 {
+    margin:0; /*Removes default h1 margin*/
+}
+
+.hero-section {
+    background-color:dimgray;
+    height: 500px;
+    margin:0; /*Removes default h1 margin*/
+    text-align: center;
+    color: whitesmoke
+}
+
+.hero-section h1 {
+    margin:0; /*Removes default h1 margin*/
+}
