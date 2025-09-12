@@ -8,14 +8,41 @@ header h1 {
     margin:0; /*Removes default h1 margin*/
 }
 
+nav ul {
+    list-style: none;
+    gap: 20x;
+}
+
 .hero-section {
     background-color:dimgray;
     height: 500px;
-    margin:0; /*Removes default h1 margin*/
+    margin: 0; /*Removes default h1 margin*/
     text-align: center;
     color: whitesmoke
 }
 
 .hero-section h1 {
     margin:0; /*Removes default h1 margin*/
+    text-align: center;
+}
+
+.nav-cards {
+    background-color: black;
+    height: 700px;
+    color: whitesmoke
+}
+
+.nav-cards h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.front-page-contact-section {
+    background-color: darkslateblue;
+    height: 500px;
+}
+
+.front-page-contact-section h1 {
+    margin: 0;
+    text-align: center;
 }
