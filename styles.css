@@ -8,9 +8,25 @@ header h1 {
     margin:0; /*Removes default h1 margin*/
 }
 
+
 nav ul {
     list-style: none;
-    gap: 20x;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:whitesmoke;
 }
 
 .hero-section {
