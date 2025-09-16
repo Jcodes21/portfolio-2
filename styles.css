@@ -55,10 +55,15 @@ nav ul li a:hover{
 
 .front-page-contact-section {
     background-color: darkslateblue;
-    height: 500px;
+    height: 250px;
 }
 
 .front-page-contact-section h1 {
     margin: 0;
     text-align: center;
+}
+
+.btn img.icon{
+    width: 300px !important;
+    height: 200px !important;
 }
