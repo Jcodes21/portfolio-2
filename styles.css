@@ -8,6 +8,11 @@ header h1 {
     margin:0; /*Removes default h1 margin*/
 }
 
+header h1 a{
+    color: inherit;
+    text-decoration: none;
+}
+
 
 nav ul {
     list-style: none;
