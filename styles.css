@@ -72,3 +72,17 @@ nav ul li a:hover{
     width: 300px !important;
     height: 200px !important;
 }
+
+.project-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card{
+    border:2px solid black;
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 6px;
+}
