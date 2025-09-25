@@ -3,10 +3,16 @@ header {
     background-color:darkslateblue;
     color:aliceblue;
     padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 header h1 {
     margin:0; /*Removes default h1 margin*/
+    position: absolute;
+    left: 50px;
 }
 
 header h1 a{
@@ -20,7 +26,7 @@ nav ul {
     padding: 0px;
     margin: 0px;
     display: flex;
-    justify-content: center;
+
 }
 
 nav ul li a {
