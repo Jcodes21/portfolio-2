@@ -21,11 +21,23 @@
     </header>
 
     <section class="hero-section">
+      <h1 id="hello-text">Hello!</h1>
       <h1>I'm a developer from London, UK</h1>
     </section>
 
+    <script>
+      const messages = ["Hello","你好"];
+      let index = 0;
+      const helloText = document.getElementById("hello-text");
+
+      setInterval(() => {
+        index = (index + 1) % messages.length;
+        helloText.textContent = messages[index];
+      }, 2000); // changes every 2 seconds
+    </script>
+
     <section class="nav-cards">
-      <h1>links</h1>
+      <h1>Explore</h1>
       <div class="cards-container">
         <a href="projects.html" class="nav-card">Projects</a>
         <a href="resume.html" class="nav-card">Contact</a>
