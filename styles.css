@@ -26,7 +26,6 @@ nav ul {
     padding: 0px;
     margin: 0px;
     display: flex;
-
 }
 
 nav ul li a {
@@ -59,6 +58,7 @@ footer {
 .hero-section h1 {
     margin:0; /*Removes default h1 margin*/
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .nav-cards {
@@ -124,4 +124,66 @@ footer {
     padding: 16px;
     margin: 12px 0;
     border-radius: 6px;
+}
+
+
+/* Informailities */
+
+.informalities {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.informalities h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.informalities p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Resume */
+#work-experience {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+#work-experience h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: darkslateblue;
+}
+
+.job {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.job h3 {
+  margin-top: 0;
+  color: darkslateblue;
+  font-size: 1.4rem;
+}
+
+.job p {
+  margin: 5px 0 15px 0;
+  font-weight: 500;
+  color: #555;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.job ul li {
+  margin-bottom: 8px;
 }
