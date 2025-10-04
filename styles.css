@@ -57,6 +57,7 @@ footer {
 
 .hero-section h1 {
     margin:0; /*Removes default h1 margin*/
+    padding-top:50px;
     text-align: center;
     font-size: 2.5rem;
 }
@@ -68,6 +69,8 @@ footer {
 }
 
 .nav-cards h1 {
+    padding-top:50px;
+    padding-bottom:50px;
     margin: 0;
     text-align: center;
 }
