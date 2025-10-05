@@ -1,6 +1,11 @@
+/* Global */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Header */
 header {
-    background-color:darkslateblue;
+    background-color:#132A13;
     color:aliceblue;
     padding: 20px 50px 20px 50px;
     display: flex;
@@ -40,7 +45,7 @@ nav ul li a:hover{
 }
 
 footer {
-    background-color: darkslateblue;
+    background-color:#1C0B19;
     color: aliceblue;
     padding: 20px 20px 20px 20px;
     text-align: center;
@@ -48,11 +53,10 @@ footer {
 
 /*  Homepage  */
 .hero-section {
-    background-color:dimgray;
+    background-color:#f7f7f7;
     height: 500px;
     margin: 0; /*Removes default h1 margin*/
     text-align: center;
-    color: whitesmoke
 }
 
 .hero-section h1 {
@@ -60,10 +64,11 @@ footer {
     padding-top:50px;
     text-align: center;
     font-size: 2.5rem;
+    color: black;
 }
 
 .nav-cards {
-    background-color: black;
+    background-color: #4F772D;
     height: 700px;
     
     color: whitesmoke
@@ -133,7 +138,6 @@ footer {
 
 
 /* Informailities */
-
 .informalities {
   padding: 3rem 2rem;
   text-align: center;
