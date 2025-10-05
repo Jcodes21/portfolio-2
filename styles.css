@@ -210,3 +210,9 @@ footer {
 .job ul li {
   margin-bottom: 8px;
 }
+
+.btn img.icon{
+    width: 300px !important;
+    height: 200px !important;
+}
+/* About */
