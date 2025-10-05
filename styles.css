@@ -121,19 +121,19 @@ footer {
 }
 
 .form-container {
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
-        .form-container iframe {
-            width: 100%;
-            max-width: 800px;
-            height: 1000px;
-            border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-            border: none;
-        }
+.form-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border: none;
+}
 
 /* Projects */
 .project-cards{
@@ -211,8 +211,8 @@ footer {
   margin-bottom: 8px;
 }
 
+/* About */
 .btn img.icon{
     width: 300px !important;
     height: 200px !important;
 }
-/* About */
