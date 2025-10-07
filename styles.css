@@ -226,4 +226,12 @@ footer {
 
 .bio-content {
     gap: 20px;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.bio-content img {
+    height: auto;
+    width: 600px;
 }
