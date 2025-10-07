@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background-color:#132A13;
+    background-color:#32292F;
     color:aliceblue;
     padding: 20px 50px 20px 50px;
     display: flex;
@@ -49,7 +49,7 @@ nav ul li a:hover{
 }
 
 footer {
-    background-color:#1C0B19;
+    background-color:#575366;
     color: aliceblue;
     padding: 20px 20px 20px 20px;
     text-align: center;
@@ -72,7 +72,7 @@ footer {
 }
 
 .nav-cards {
-    background-color: #4F772D;
+    background-color: #6E7DAB;
     height: 700px;
     
     color: whitesmoke
@@ -192,7 +192,7 @@ footer {
 
 .job h3 {
   margin-top: 0;
-  color: darkslateblue;
+  color: rgb(0, 0, 0);
   font-size: 1.4rem;
 }
 
@@ -228,10 +228,11 @@ footer {
     gap: 20px;
     display: flex;
     align-items: flex-start;
-
 }
 
 .bio-content img {
     height: auto;
     width: 600px;
+    border-radius: 25px;
+
 }
