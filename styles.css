@@ -83,7 +83,6 @@ footer {
 .nav-cards {
     background-color: #6E7DAB;
     height: 700px;
-    
     color: whitesmoke
 }
 
@@ -101,22 +100,29 @@ footer {
     justify-content: center;
 }
 
-.nav-card {
+.cards-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    margin-left: 50px;
-    width: 600px;
-    height: 400px;
+}
+
+.nav-card {
+    display:flex; /* treat <a> tag as non inline element*/
+    align-items: center; /* text Vertical */
+    justify-content: center; /* Text Horizonatal */
+    flex: 1 1 300px; /* Grow, shrink, minimum width */
+    max-width: 390px; /* Prevent from being too wide */
+    height: 300px;
     background-color: #f0f0f0;
     text-decoration: none;
     color: #1b3a74;
-    font-size:1.5rem;
+    font-size: 1.5rem;
     border-radius: 12px;
-    box-shadow: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.2s, box-shadow 0.2;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
+
 
 /* Contact */
 .front-page-contact-section {
@@ -266,7 +272,7 @@ footer {
 
 .bio-content img {
     height: auto;
-    width: 600px;
+    width: 450px;
     border-radius: 25px;
 
 }
