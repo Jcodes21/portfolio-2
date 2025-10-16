@@ -184,6 +184,18 @@ footer {
     display: none;
 }
 
+.github-code-btn {
+    background-color: #007acc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.github-code-btn:hover {
+    background-color: #1b3a74;
+}
+
 /* Informailities */
 .informalities {
   padding: 3rem 2rem;
