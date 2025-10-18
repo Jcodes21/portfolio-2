@@ -185,7 +185,7 @@ footer {
 }
 
 .github-code-btn {
-    background-color: #007acc;
+    background-color: #333;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
@@ -193,9 +193,20 @@ footer {
 }
 
 .github-code-btn:hover {
-    background-color: #1b3a74;
+    background-color: #007acc;
 }
 
+.live-demo-btn {
+  background-color: #12b84f;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f0f0f0;
+  padding: 5px;
+}
+
+.live-demo-btn:hover {
+  background-color: #1b3a74;
+}
 /* Informailities */
 .informalities {
   padding: 3rem 2rem;
