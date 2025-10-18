@@ -118,15 +118,14 @@ footer {
 
 
 /* Contact */
-.front-page-contact-section {
-    background-color: darkslateblue;
-    height: 250px;
+.contact-page h1{
+  text-align: center;
 }
 
-.front-page-contact-section h1 {
-    margin: 0;
-    text-align: center;
+.contact-page p {
+  text-align:center;
 }
+
 
 .form-container {
     display: flex;
