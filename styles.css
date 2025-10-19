@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(to bottom, #32292F, #575366, #6E7DAB);
+  background: linear-gradient(to top, #32292F, #575366, #6E7DAB);
   color: aliceblue;
   padding: 20px 50px;
   display: flex;
@@ -66,7 +66,7 @@ footer {
 
 /*  Homepage  */
 .hero-section {
-    background-color:#f7f7f7;
+    background-color: var(--bg-color);
     height: 500px;
     margin: 0; /*Removes default h1 margin*/
     text-align: center;
@@ -77,13 +77,13 @@ footer {
     padding-top:50px;
     text-align: center;
     font-size: 2.5rem;
-    color: black;
+    color: var(--text-color);
 }
 
 .nav-cards {
-    background-color: #6E7DAB;
+    background-color: var(--accent-color);
     height: 700px;
-    color: whitesmoke
+    color: var(--text-color)
 }
 
 .nav-cards h1 {
@@ -118,12 +118,19 @@ footer {
 
 
 /* Contact */
+.contact-page {
+  background-color:var(--bg-color);
+}
+
 .contact-page h1{
   text-align: center;
+  margin: 0;
+  color: var(--text-color);
 }
 
 .contact-page p {
   text-align: center;
+  color: var(--text-color);
 }
 
 
@@ -154,7 +161,8 @@ footer {
 }
 
 .project-card{
-    border:2px solid black;
+    background-color: var(--card-bg);
+    border:2px solid var(--border-color);
     padding: 16px;
     margin: 12px 0;
     border-radius: 6px;
@@ -187,7 +195,7 @@ footer {
 }
 
 .github-code-btn {
-    background-color: #333;
+    background-color: purple;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
@@ -213,21 +221,23 @@ footer {
 .informalities {
   padding: 3rem 2rem;
   text-align: center;
+  background-color: var(--bg-color);
 }
 
 .informalities h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #444;
+  color: var(--text-color);
 }
 
 .informalities p {
   font-size: 1.2rem;
-  color: #666;
+  color: var(--text-color);
 }
 
 /* Resume */
 #work-experience {
+  background-color: var(--bg-color);
   padding: 50px 20px;
   max-width: 900px;
   margin: auto;
@@ -237,27 +247,28 @@ footer {
   text-align: center;
   font-size: 2.2rem;
   margin-bottom: 30px;
-  color: darkslateblue;
+  color: var(--text-color);
 }
 
 .job {
-  background: #fff;
-  border-radius: 10px;
+  background: var(--card-bg);
+  border:2px solid var(--border-color);
+  border-radius: 6px;
   padding: 20px 25px;
-  margin-bottom: 25px;
+  margin: 25px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .job h3 {
   margin-top: 0;
-  color: rgb(0, 0, 0);
+  color: var(--text-color);
   font-size: 1.4rem;
 }
 
 .job p {
   margin: 5px 0 15px 0;
   font-weight: 500;
-  color: #555;
+  color: var(--text-color);
 }
 
 .job ul {
@@ -267,6 +278,7 @@ footer {
 
 .job ul li {
   margin-bottom: 8px;
+  color: var(--text-color);
 }
 
 /* About */

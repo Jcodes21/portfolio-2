@@ -1,0 +1,33 @@
+:root {
+    --bg-color: hsl(0, 0%, 0%);
+    --text-color: hsl(0, 0%, 95%);
+    --accent-color: hsl(220, 90%, 55%);
+    --header-bg: hsl(240, 3%, 10%);
+    --footer-bg: hsl(240, 5%, 12%);
+    --card-bg: hsl(0, 0%, 20%);
+    --border-color: hsl(0, 0%, 30%);
+}
+
+body.light-mode {
+    --bg-color: hsl(0, 0%, 98%);
+    --text-color: hsl(0, 0%, 10%);
+    --accent-color: hsl(220, 90%, 55%);
+    --header-bg: hsl(0, 0%, 95%);
+    --footer-bg: hsl(0, 0%, 96%);
+    --card-bg: hsl(0, 0%, 100%);
+    --border-color: hsl(0, 0%, 90%);
+}
+
+/*  Global application  */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
