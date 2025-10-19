@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-  background-color: #32292F;
+  background: linear-gradient(to bottom, #32292F, #575366, #6E7DAB);
   color: aliceblue;
   padding: 20px 50px;
   display: flex;
@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color:#575366;
+    background: linear-gradient(to top, #32292F, #575366, #6E7DAB);
     color: aliceblue;
     padding: 20px 20px 20px 20px;
     text-align: center;
