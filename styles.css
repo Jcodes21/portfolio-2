@@ -160,12 +160,56 @@ footer {
     padding: 20px;
 }
 
-.project-card{
-    background-color: var(--card-bg);
-    border:2px solid var(--border-color);
+/* Projects - Complete working gradient border */
+.projects-page-title {
+  text-align: center;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-card {
+    --border-width: 4px;
+    position: relative;
     padding: 16px;
     margin: 12px 0;
-    border-radius: 6px;
+    border-radius: 8px;
+    background: var(--card-bg);
+    background-clip: padding-box;
+    border: var(--border-width) solid transparent;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: calc(-1 * var(--border-width));
+    border-radius: 8px; /* Match the card's border-radius */
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .filter-buttons {
