@@ -97,9 +97,10 @@ footer {
 
 .nav-cards h1 {
     padding-top:50px;
+    padding-left: 20px;;
     padding-bottom:50px;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .cards-container {
