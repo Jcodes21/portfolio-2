@@ -133,7 +133,6 @@ footer {
   color: var(--text-color);
 }
 
-
 .form-container {
     display: flex;
     justify-content: center;
@@ -184,7 +183,7 @@ footer {
 }
 
 .project-card::before {
-    content: '';
+    content: ''; /* Creates a invisible element */
     position: absolute;
     top: 0;
     left: 0;
@@ -197,7 +196,6 @@ footer {
     animation: animatedgradient 3s ease alternate infinite;
     background-size: 300% 300%;
 }
-
 
 @keyframes animatedgradient {
   0% {
@@ -280,16 +278,17 @@ footer {
 }
 
 /* Resume */
-#work-experience {
+.work-experience {
   background-color: var(--bg-color);
   padding: 50px 20px;
   max-width: 900px;
   margin: auto;
 }
 
-#work-experience h2 {
+.work-experience h1 {
   text-align: center;
   font-size: 2.2rem;
+  margin-top: 0px;
   margin-bottom: 30px;
   color: var(--text-color);
 }
@@ -338,6 +337,15 @@ footer {
     height: 200px !important;
 }
 
+.about-bio-intro {
+  text-align: center;
+}
+
+.bio-content-title {
+  margin-left:10px;
+
+}
+
 .bio-content {
     gap: 20px;
     display: flex;
@@ -348,5 +356,6 @@ footer {
     height: auto;
     width: 450px;
     border-radius: 25px;
+    margin-left: 10px;
 
 }
