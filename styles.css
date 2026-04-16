@@ -162,6 +162,7 @@ footer {
 .projects-page-title {
   text-align: center;
 }
+
 .project-cards{
     display: flex;
     flex-direction: column;
@@ -269,6 +270,23 @@ footer {
 .live-demo-btn:hover {
   background-color: #1b3a74;
 }
+
+/* Blog */
+.blog-post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-post-card {
+  background-color: var(--card-bg);
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 20px;  
+}
+
 /* Informailities */
 .informalities {
   padding: 3rem 2rem;
