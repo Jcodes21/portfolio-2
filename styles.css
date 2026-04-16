@@ -67,7 +67,7 @@ footer {
 /*  Homepage  */
 .hero-section {
     background-color: var(--bg-color);
-    height: 500px;
+    height: 300px;
     margin: 0; /*Removes default h1 margin*/
     text-align: center;
     position: relative;
@@ -86,12 +86,12 @@ footer {
   position: relative;
   width:50%;
   height: auto;
-  bottom: 89px;
+  margin-top:350px;
 }
 
 .nav-cards {
     background-color: green;
-    height: 700px;
+    height: 900px;
     color: var(--text-color)
 }
 
@@ -106,7 +106,7 @@ footer {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 35px;
     justify-content: center;
 }
 
@@ -341,6 +341,7 @@ footer {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+.job h2,
 .job h3 {
   margin-top: 0;
   color: var(--text-color);
